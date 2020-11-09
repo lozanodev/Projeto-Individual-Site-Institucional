@@ -1,4 +1,4 @@
-# WE-SPORTS V0.01
+# WE-SPORTS V0.02
 
 ## Esse é um site institucional individual desenvolvido com propositos escolares.
 

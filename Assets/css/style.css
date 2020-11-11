@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
   }
   .container {
-    width: 86%;
+    width: 80%;
     margin: auto;
     height: 50px;
 }
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #232323;
     background-size: cover;
     height: 70px;
-    width: 1080px;
+    width: 1500px;
     padding-top: 20px;
     border-bottom: purple solid 5px;
     position: fixed;
@@ -41,8 +41,11 @@ h1, h2, h3, h4, h5, h6 {
     color: orangered;
 }
 .img-logo{
-    width: 150px;
+    width: 200px;
     float: left;
+    margin-top: -10px;
+    margin-left: -50px;
+    margin-right: 100px;
 }
 .navbar-lista{
   margin: 0;
@@ -55,12 +58,12 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-lista a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
 }
 .navbar-lista li{
         display: inline-block;
-        padding: 15px 0px 0 10px;
+        padding: 15px 0px 120px 40px;
 }
 .navbar{
         display: block;
@@ -76,13 +79,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #97f14e;
   }
 .buscar{
-    margin: 4px 30px 20px;
+    margin: 6px 20px 150px 80px;
     border-radius: 5px;
     width: 260px;
     height: 25px;
     float: left;
 }
-.buscar-botao{
+.buscarbotao{
     width: 25px;
     margin: 0px;
     padding-top: 10px;
@@ -98,9 +101,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bloco{
     background-color: #38363D;
-    width: 860px;
-    min-height: 600px;
-    margin-left: 45px;
+    width: 1210px;
+    min-height: 800px;
+    margin-left: 100px;
 }
 .containertorneio{
     /* background-image: url(/Imagens/valorant.jpg); */
@@ -112,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bloco2{
     background-color: #1D1F1D;
-    width: 860px;
+    width: 1210px;
     min-height: 600px;
-    margin-left: 45px;
+    margin-left: 100px;
 }
 .footer{
     background-color: #161616;
@@ -123,32 +126,43 @@ h1, h2, h3, h4, h5, h6 {
     border-top: green solid 5px;
 }
 .img-logo2{
-    width: 150px;
+    width: 200px;
     position: absolute;
-    left: 25px;
+    left: 100px;
 }
 .bloquinho{
     background-color: green;
     width: 2px;
     height: 60px;
-    margin-left: 200px;
+    margin-left: 325px;
     margin-top: 20px; 
 }
 .textfooter{
     /* text-align: center; */
-    margin-left: 225px;
+    margin-left: 350px;
     margin-top: -64px;
 }
 .bloquinho2{
     background-color: green;
     width: 2px;
     height: 60px;
-    margin-left: 550px;
+    margin-left: 645px;
     margin-top: -65px; 
 }
 .textfooter2{
     /* text-align: center; */
-    margin-left: 575px;
+    margin-left: 750px;
     margin-top: -63px;
-    font-size: small;
+    font-weight: 400;
+}
+.registrar{
+    margin-left: 820px;
+    margin-top: 15px;
+}
+.bloquinho3{
+    background-color: green;
+    width: 2px;
+    height: 60px;
+    margin-left: 1230px;
+    margin-top: -60px; 
 }

@@ -12,3 +12,10 @@
 - Comecei a desenvolver a estrutura base
 - Adicionei uma Nav-bar Com a LOGO e botões funcionais, e um input text.
 - Adicionei estilo pra Nav-Bar e o Corpo da Página
+
+### Versão 0.03
+- Finalizei a estrutura base do site
+- Adicionei algumas funções e estilos
+- Arrumei problemas gerais
+- Defini o Projeto para Monitores 1440x900
+- Fiz o Footer base com a LOGO e algumas informações

@@ -1,4 +1,6 @@
-# WE-SPORTS V0.02
+#  WE-SPORTS V0.031
+
+<img src="Imagens/logo.png" style="width: 400px" alt="My cool logo"/>
 
 ## Esse é um site institucional individual desenvolvido com propositos escolares.
 
@@ -17,5 +19,7 @@
 - Finalizei a estrutura base do site
 - Adicionei algumas funções e estilos
 - Arrumei problemas gerais
-- Defini o Projeto para Monitores 1440x900
 - Fiz o Footer base com a LOGO e algumas informações
+
+### Versão 0.031
+- Defini o Projeto para Monitores 1440x900

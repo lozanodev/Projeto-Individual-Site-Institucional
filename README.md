@@ -1,4 +1,6 @@
-#  WE-SPORTS V0.031
+# WE-SPORTS V0.031
+
+<img src="Imagens/logotext.png" style="width: 400px" alt="My cool logo"/>
 
 <img src="Imagens/logo.png" style="width: 400px" alt="My cool logo"/>
 

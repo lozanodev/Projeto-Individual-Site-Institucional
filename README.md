@@ -1,8 +1,14 @@
+<<<<<<< HEAD
+#  WE-SPORTS V0.031
+
+<img src="Imagens/logotext.png" style="width: 400px" alt="My cool logo"/>
+=======
 # WE-SPORTS V0.031
 
 <img src="Imagens/logotext.png" style="width: 400px" alt="My cool logo"/>
 
 <img src="Imagens/logo.png" style="width: 400px" alt="My cool logo"/>
+>>>>>>> d161609167c8c5a182557e6b474329fea07b8584
 
 ## Esse é um site institucional individual desenvolvido com propositos escolares.
 

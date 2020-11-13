@@ -97,12 +97,13 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-color: #CBCBCB;
     text-align: center;
-    min-height: 600px;
+    min-height: 750px;
+     /* background-image: url(/Imagens/galaxy.jpg); */
 }
 .bloco{
     background-color: #38363D;
-    width: 1210px;
-    min-height: 800px;
+    width: 1220px;
+    min-height: 825px;
     margin-left: 100px;
 }
 .containertorneio{
@@ -115,9 +116,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bloco2{
     background-color: #1D1F1D;
-    width: 1210px;
+    width: 1220px;
     min-height: 600px;
     margin-left: 100px;
+}
+.bloco2 h1{
+    color: white;
+    padding-top: 45px; 
+    font-weight: 600;
+    font-size: 35px;
 }
 .footer{
     background-color: #161616;
@@ -139,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .textfooter{
     /* text-align: center; */
-    margin-left: 350px;
+    margin-left: -450px;
     margin-top: -64px;
 }
 .bloquinho2{
@@ -151,12 +158,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .textfooter2{
     /* text-align: center; */
-    margin-left: 750px;
+    margin-left: 450px;
     margin-top: -63px;
     font-weight: 400;
 }
 .registrar{
-    margin-left: 820px;
+    margin-left: 475px;
     margin-top: 15px;
 }
 .bloquinho3{
@@ -165,4 +172,103 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
     margin-left: 1230px;
     margin-top: -60px; 
+}
+
+.blockchain1{
+
+width: 900px;
+height: 375px;
+padding-top: 90px;
+
+
+background: #505050;
+background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
+
+}
+.blockchain1 h1{
+    color: white;
+    margin-top: 280px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.blockchain2{
+    width: 320px;
+    height: 710px;
+    margin-left: 900px;
+    margin-top: -440px;
+    /* background-image: url(/Imagens/casal.png); */
+    background: #da2b2b;
+}
+.blockchain2 h1{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 250px;
+    padding-left: 10px;
+    text-align: left;
+}
+.blockchain3{
+        width: 450px;
+        height: 375px;
+        margin-top: -275px;
+        margin-left: 450px;
+
+    background: #8eda2b;
+}
+ .blockchain3 h1{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 250px;
+    padding-left: 25px;
+    text-align: left;
+}
+.blockchain4{
+    width: 450px;
+    height: 375px;
+    margin-top: -375px;
+
+    background: #213601;
+}
+.blockchain4 h1{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 250px;
+    padding-left: 20px;
+    width: 500px;
+    text-align: left;
+}
+.blockchain5{
+    width: 320px;
+    height: 350px;
+    margin-left: 900px;
+    margin-top: -350px;
+    background: #3616f0;
+    box-shadow: black;
+}
+.blockchain5 h1{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 250px;
+    padding-left: 20px;
+    width: 275px;
+    text-align: left;
+}
+.line1{
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    background-color: rgb(9, 246, 9);
+    left: 125px;
+    top: 900px;
+}
+.line2{
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    background-color: rgb(9, 246, 9);
+    left: 890px;
+    top: 900px;
 }

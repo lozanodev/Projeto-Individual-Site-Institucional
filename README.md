@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-#  WE-SPORTS V0.031
-
-<img src="Imagens/logotext.png" style="width: 400px" alt="My cool logo"/>
-=======
 # WE-SPORTS V0.031
 
 <img src="Imagens/logotext.png" style="width: 400px" alt="My cool logo"/>
 
 <img src="Imagens/logo.png" style="width: 400px" alt="My cool logo"/>
->>>>>>> d161609167c8c5a182557e6b474329fea07b8584
 
 ## Esse é um site institucional individual desenvolvido com propositos escolares.
 
@@ -31,3 +25,8 @@
 
 ### Versão 0.031
 - Defini o Projeto para Monitores 1440x900
+
+### Versão 0.04
+- Adicionei um showcase de noticiais na pagina inicial
+- Adicionei texts no showcase
+- Adicionei mais alguns efeitos na página

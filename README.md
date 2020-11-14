@@ -30,3 +30,8 @@
 - Adicionei um showcase de noticiais na pagina inicial
 - Adicionei texts no showcase
 - Adicionei mais alguns efeitos na página
+
+### Versão 0.05
+- Adicionei as imagens e organizei o primeiro showcase de noticiais
+- Adicionei textos e gifs dos jogos na showcase de Campeonatos
+- Adicionei conexões dentre os gifs e titulos com a página de jogos oficiais

@@ -10,7 +10,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 0 0;
     padding: 0;
   }
   .container {
@@ -115,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 600px;
 }
 .bloco2{
-    background-color: #1D1F1D;
+    background-color: #0f0f0f;
     width: 1220px;
-    min-height: 600px;
+    min-height: 1000px;
     margin-left: 100px;
 }
 .bloco2 h1{
@@ -143,6 +143,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
     margin-left: 325px;
     margin-top: 20px; 
+}
+.imgmain{
+    margin-top: -25px;
 }
 .textfooter{
     /* text-align: center; */
@@ -187,7 +190,7 @@ background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
 }
 .blockchain1 h1{
     color: white;
-    margin-top: 280px;
+    margin-top: -100px;
     font-weight: 600;
     font-size: 35px;
 }
@@ -203,7 +206,7 @@ background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
     color: white;
     font-weight: 600;
     font-size: 30px;
-    padding-top: 250px;
+    margin-top: -180px;
     padding-left: 10px;
     text-align: left;
 }
@@ -219,7 +222,7 @@ background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
     color: white;
     font-weight: 600;
     font-size: 30px;
-    padding-top: 250px;
+    margin-top: -150px;
     padding-left: 25px;
     text-align: left;
 }
@@ -234,7 +237,7 @@ background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
     color: white;
     font-weight: 600;
     font-size: 30px;
-    padding-top: 250px;
+    margin-top: -120px;
     padding-left: 20px;
     width: 500px;
     text-align: left;
@@ -251,7 +254,7 @@ background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
     color: white;
     font-weight: 600;
     font-size: 30px;
-    padding-top: 250px;
+    margin-top: -150px;
     padding-left: 20px;
     width: 275px;
     text-align: left;
@@ -271,4 +274,87 @@ background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
     background-color: rgb(9, 246, 9);
     left: 890px;
     top: 900px;
+}
+.csgoimg{
+    width: 320px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 90px;
+    /* background: #3616f0; */
+}
+.lolimg{
+
+        width: 350px;
+        height: 350px;
+        margin-left: 430px;
+        margin-top: -350px;
+        background: #1df016;
+
+}
+.freefireimg{
+
+    width: 320px;
+    height: 350px;
+    margin-left: 840px;
+    margin-top: -350px;
+    /* background: #16e9f0; */
+
+}
+.csgo-title{
+     position: absolute;
+     top: 950px;
+     color: white;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 600;
+     font-size: 30px;
+     left: 275px; 
+    
+}
+.lol-title{
+    position: absolute;
+    top: 950px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    left: 560px; 
+   
+}
+.freefire-title{
+    position: absolute;
+    top: 950px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    left: 1050px; 
+}
+.textogame1{
+    color: white;
+    margin-left: -830px;
+    margin-top: 25px;
+
+}
+.textogame2{
+    color: white;
+    margin-top: -115px;
+    margin-left: -45px;
+}
+.textogame3{
+    color: white;
+    margin-left: 775px;
+    margin-top: -115px;
+
+}
+.textogame1 li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.textogame2 li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.textogame3 li{
+    text-decoration: none;
+    list-style-type: none;
 }

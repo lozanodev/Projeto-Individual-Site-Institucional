@@ -7,6 +7,7 @@
 
     <!-- Importação CSS -->
     <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Animações import -->
 
     <!-- Google Fontes -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
@@ -19,10 +20,10 @@
         <a href="index.html" class="titulo"><img src="Imagens/logotext.png" alt="" class="img-logo"></a>
           <nav class="navbar">
             <ul class="navbar-lista">
-              <li class="menu-atual"><a href="index.html">Novidades</a></li>
+              <li class="menu-atual"><a href="#novidades">Novidades</a></li>
               <li><a href="#torneios">Torneios</a></li>
-              <li><a href="#portfolio">Login</a></li>
-              <li><a href="#contact">Registrar</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="registrar.html">Registrar</a></li>
             </ul>
             <input class="buscar" type="text" id="buscar" placeholder="Pesquise por algo!">  
             <img onclick="" src="Imagens/lupa.png" class="buscarbotao">
@@ -31,6 +32,7 @@
     </div>
 </header><!-- Fim Header -->
 <!-- ======= Showcase Main ======= -->
+<section id="novidades" data-aos="fade-up">
 <div class="showcasemain">
   <div class="containermain">
       <div class="bloco">
@@ -43,7 +45,7 @@
             <h1>Valorant é a novidade mais amada da atualidade!</h1>  
           </div>
           <div class="blockchain3">
-            <img src="Imagens/free.jpg" width="450px" height="400px" alt="">
+            <img src="Imagens/free.jpg" width="450px" height="375px" alt="">
             <h1>Campeonatos novos de Free Fire!</h1></div>
           <div class="blockchain4">
             <img src="Imagens/samira.jpg" width="450px" height="375px" alt="">
@@ -56,9 +58,10 @@
       </div>
   </div>
 </div>
+</section>
 <!-- ========= Fim Showcase Main ======== -->
  <!-- ====== Showcase Torneios ========= -->
- <section id="torneio">
+ <section id="torneios" data-aos="fade-down">
  <div class="showcasetorneio">
   <div class="containertorneio">
       <div class="bloco2">
@@ -95,6 +98,7 @@
           <ul>Amateur-GamersClub 2020</ul>
         </li></span>
       </div>
+      <lr></lr>
       </div>
   </div>
 </div>
@@ -104,25 +108,25 @@
 <!-- ======= Footer ======== -->
 <footer>
   <div class="footer">
-    <div class="footerimg">
-      <a href="index.html" class="titulo"><img src="Imagens/logotext.png" alt="" class="img-logo2"></a>
-      <div class="bloquinho"></div>
-      <div class="textfooter">
-        Endereço : Rua Haddock Lobo 541 <br>
-        Contato : contato@we-sports.com.br <br>
-        Telefone : +55 (11)98532-5846
-      </div>
-      <div class="bloquinho2"></div>
-      <div class="textfooter2">
-       <span style="color: white;">Não perca nenhuma noticia no mundo do E-Sports! </span>
-      </div>
-      <div class="registrar">
-        <input type="text" class="resgistrarfooter" id="registrartext" placeholder="Digite seu Email!"> <button onclick="registrar()" class="button">Registrar</button><br>
-      </div>
-      <div class="bloquinho3"></div>
+    <div class="imagemfooter">
+      <img src="Imagens/logotext.png" alt="">
+    </div>  
+    <div class="nada">
+      <div class="contato"> <h3>Contato :</h3>suport@wesports.com.br<br>
+        <h3>Numero :</h3> +55 (11)961875321       
     </div>
+    </div>
+    <div class="suporte">Não perca nenhuma novidade no mundo E-Sports</div>
+  </div>
 </div>
 </footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  duration: 600
+</script>
+
 </body>
 </html>
 

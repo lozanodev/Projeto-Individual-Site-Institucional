@@ -1,4 +1,4 @@
-# WE-SPORTS V0.04
+# WE-SPORTS V0.06
 
 <img src="Imagens/logotext.png" style="width: 400px" alt="My cool logo"/>
 
@@ -35,3 +35,11 @@
 - Adicionei as imagens e organizei o primeiro showcase de noticiais
 - Adicionei textos e gifs dos jogos na showcase de Campeonatos
 - Adicionei conexões dentre os gifs e titulos com a página de jogos oficiais
+
+### Versão 0.06 
+- Adicionei uma tela de Login
+- Adicionei uma tela de Registro
+- Adicionei uma Biblioteca de animações
+- Reconstrui e Refatorei algumas partes do código
+- Adicionei um arquivo css só para login e registro
+

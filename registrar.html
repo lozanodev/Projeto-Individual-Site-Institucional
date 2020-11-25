@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WE-SPORTS</title>
-    <link rel="stylesheet" href="/Assets/css/stylelogin.css"
+    <link rel="stylesheet" href="assets/css/stylelogin.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
+
 <body>
-<div id="textlogin">
-    <form class="box" action="login.html" method="post">
-    <h1>Login</h1>
-    <input type="text" name="user" placeholder="Usuário">
-    <input type="text" name="email" placeholder="Email">
-    <input type="text" name="telefone" placeholder="Telefone">
-    <input type="password" name="senha" placeholder="Senha">
-    <input type="submit" name="entrar" value="Registrar">
-    <p>Problemas com Registro?</p>
-    <a href="registrar.html" style="color: aqua;">Clique aqui</a>
-    <p></p>
-    <footer>Created by Madakey</footer>
-    </form>
-</div>
+    <div id="textlogin">
+        <form class="box" id="form_cadastro" onsubmit="return cadastrar()" method="post">
+            <h1>Registrar</h1>
+            <input id="user" type="text" name="user" autofocus="autofocus" placeholder="Usuário" required minlength="4">
+            <input id="email" type="text" name="email" placeholder="Email" required minlength="4">
+            <input id="phone" type="text" name="telefone" placeholder="Telefone" required minlength="4">
+            <input id="password" type="password" name="senha" placeholder="Senha" required minlength="4">
+            <button type="button" id="btn_entrar" name="entrar" value="cadastrar" onclick="cadastrar(user.value, email.value, phone.value, password.value)">Cadastrar</button>
+            <!-- <p>Problemas com Registro?</p> -->
+            <!-- <a href="index.html" style="color: rgb(95, 95, 95);">entrar sem logar</a> -->
+            <p></p>
+        </form>
+    </div>
 </body>
+
 </html>
+<script>
+
+    function cadastrar(user, email, phone, password) {
+        const formUser  = {
+            usuario:user,
+            email,
+            telefone:phone,
+            senha:password
+        };    
+        console.log(JSON.stringify(formUser))
+        fetch("/usuarios/cadastrar", {
+            method: 'post',
+            headers: {
+    'Accept': 'application/json, text/plain, */*',
+    'Content-Type': 'application/json'
+  },
+            body: JSON.stringify(formUser)
+        }).then(function (response) {
+            
+            if (response.ok) {
+    
+                window.location.href='login.html';
+    
+            } else {
+    
+                console.log('Erro de cadastro!');
+                // response.text().then(function (resposta) {
+                //     div_erro.innerHTML = resposta;
+                // });
+                // finalizar_aguardar();
+            }
+        });
+    
+        return false;
+    }
+    
+    function aguardar() {
+        btn_entrar.disabled = true;
+        img_aguarde.style.display='block';
+        div_erro.style.display='none';
+    
+    }
+    
+    function finalizar_aguardar() {
+        btn_entrar.disabled = false;
+        img_aguarde.style.display='none';
+        div_erro.style.display='block';
+    }
+    </script>

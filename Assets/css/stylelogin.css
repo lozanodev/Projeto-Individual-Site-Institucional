@@ -2,14 +2,14 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: black;
+    background-image: url('Imagens/wallpaperlogin.jpg');
     color: white;
 }
 footer{
     color: white;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} 
 .box{
     width: 300px;
     padding: 40px;
@@ -17,7 +17,7 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #191919;
+    background: rgba(10, 10, 10, 0.75);
     text-align: center;
     box-shadow: #3498db;
     border-radius: 25px;
@@ -34,7 +34,7 @@ footer{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #2b0be0;
+    border: 2px solid #800be0;
     padding: 14px 10px;
     width: 200px;
     outline: none;
@@ -53,10 +53,10 @@ footer{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid;
+    border: 4px solid;
     padding: 14px 10px;
     width: 100px;
     outline: none;
-    border-color: rgb(0, 255, 13);
+    border-color: rgb(255, 50, 13);
     border-radius: 24px;
 }

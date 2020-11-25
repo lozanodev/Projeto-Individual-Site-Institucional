@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WE-SPORTS</title>
-    <link rel="stylesheet" href="assets/css/stylelogin.css"
+    <link rel="stylesheet" href="assets/css/stylelogin.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
+
 <body>
-<div id="textlogin">
-    <form class="box" action="index.html" method="post">
-    <h1>Login</h1>
-    <input type="text" name="user" placeholder="Usuário">
-    <input type="password" name="senha" placeholder="Senha">
-    <a href="index.html"><input type="submit" name="entrar" value="Login"></a>
-    <p>Não tem conta ainda?</p>
-    <a href="registrar.html" style="color: aqua;">Registre-se Aqui</a>
-    <p></p>
-    <footer>Created by Madakey</footer>
-    </form>
-</div>
+    <div id="textlogin">
+        <form class="box" action="index.html" method="post">
+            <h1>Login</h1>
+            <input type="text" id="email" placeholder="Usuário">
+            <input type="password" id="password" placeholder="Senha">
+            <button type="button" name="entrar" value="Login" onclick="login(email.value, password.value)">Login</button>
+            <p>Não tem conta ainda?</p>
+            <a href="registrar.html" style="color: aqua;">Registre-se Aqui</a>
+            <p></p>
+        </form>
+    </div>
+
 </body>
+<script>
+  function login (email, password) {
+        const formUser  = {
+            login:email,
+            senha:password
+        };    
+        console.log(JSON.stringify(formUser))
+        fetch("/usuarios/autenticar", {
+            method: 'post',
+            headers: {
+    'Accept': 'application/json, text/plain, */*',
+    'Content-Type': 'application/json'
+  },
+            body: JSON.stringify(formUser)
+        }).then(function (response) {
+            
+            if (response.ok) {
+    
+                window.location.href='index.html';
+    
+            } else {
+    
+                console.log('Erro de cadastro!');
+                // response.text().then(function (resposta) {
+                //     div_erro.innerHTML = resposta;
+                // });
+                // finalizar_aguardar();
+            }
+        });
+    
+        return false;
+    }
+</script>
 </html>

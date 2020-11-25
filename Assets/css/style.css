@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0 0;
     padding: 0;
   }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  }
   .container {
     width: 80%;
     margin: auto;
@@ -187,6 +192,7 @@ background-image: url(/Imagens/20610435208_5e7a45bfe5_h_01.jpg);
     margin-top: -100px;
     font-weight: 600;
     font-size: 35px;
+    z-index: 800;
 }
 .blockchain2{
     width: 320px;

@@ -1,4 +1,4 @@
-# WE-SPORTS V0.06
+# WE-SPORTS V0.07
 
 <img src="Imagens/logotext.png" style="width: 400px" alt="My cool logo"/>
 
@@ -43,3 +43,5 @@
 - Reconstrui e Refatorei algumas partes do código
 - Adicionei um arquivo css só para login e registro
 
+### Version 0.07
+- Todo o projeto foi adaptado para funcionar na Nuvem Azure com API Node JS
